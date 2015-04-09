@@ -7,5 +7,5 @@ angular.module('calCounter.controllers', [])
 
 .controller('FoodlistsCtrl', function($scope, $stateParams) {
     
-    $stateParams.foodlistsId = $scope.foodlistsId;
+    $scope.dishesId = $stateParams.dishesId;
 });
