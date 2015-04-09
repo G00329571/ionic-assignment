@@ -1,12 +1,10 @@
 <ion-side-menus enable-menu-with-back-views="false">
   <ion-side-menu-content>
     <ion-nav-bar class="bar-stable">
-      <ion-nav-back-button>
-      </ion-nav-back-button>
+     <ion-nav-back-button></ion-nav-back-button>
 
       <ion-nav-buttons side="left">
-        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
-        </button>
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
       </ion-nav-buttons>
     </ion-nav-bar>
     <ion-nav-view name="menuContent"></ion-nav-view>
@@ -19,25 +17,9 @@
     <ion-content>
       <ion-list>
        
-        <ion-item nav-clear menu-close href="#/app/foodlists/1">
-          Meat
+            <ion-item ng-repeat="category in categories" nav-clear menu-close ng-href="#/app/foodlists/{{categories.indexOf(category)}}">
+ {{ category }}
         </ion-item>
-          <ion-item nav-clear menu-close href="#/app/foodlists/2">
-          Vegetables
-        </ion-item>
-          <ion-item nav-clear menu-close href="#/app/foodlists/3">
-          Fruit
-        </ion-item>
-          <ion-item nav-clear menu-close href="#/app/foodlists/4">
-          Fish & Poultry
-        </ion-item>
-          <ion-item nav-clear menu-close href="#/app/foodlists/5">
-          Drinks
-        </ion-item>
-        
-        
-        
-        
       </ion-list>
     </ion-content>
   </ion-side-menu>
