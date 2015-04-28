@@ -11,7 +11,17 @@ angular.module('calCounter.controllers', [])
     
     foodlists = [
     [
-      "Back bacon",
+    {title: "Back bacon", imgsrc: "img/Meat/backbacon.jpg", calories: 125},
+    {title: "Beef fillet", imgsrc: "img/Meat/beeffillet.jpg", calories: 140},   
+    {title: "Pork sausage", imgsrc: "img/Meat/pork-sausage.jpg", calories: 200},   
+    {title: "Pork chop", imgsrc: "img/Meat/porkchop.jpg", calories: 190},  
+    {title: "Pork fillet", imgsrc: "img/Meat/porkfillet.jpg", calories: 246},   
+    {title: "Roast beef", imgsrc: "img/Meat/roastbeef.jpg", calories: 294},   
+    {title: "Roast lamb", imgsrc: "img/Meat/roastleglamb.jpg", calories: 165},  
+    {title: "Sirlion steak", imgsrc: "img/Meat/sirlionsteak.jpg", calories: 289},   
+    {title: "Streaky bacon", imgsrc: "img/Meat/streakybacon.jpg", calories: 320}    
+        
+     /* "Back bacon",
       "Beef fillet",
       "Pork sausage",
       "Pork chop",
@@ -19,10 +29,23 @@ angular.module('calCounter.controllers', [])
       "Roast beef",
       "Roast lamb",
       "Sirlion steak",
-       "Streaky bacon"
+       "Streaky bacon"*/
     ],
     [
-      "Asparagus",
+        
+    {title: "Asparagus", imgsrc: "img/Vegetables/asparagus.jpg", calories: 125},
+    {title: "Broccoli", imgsrc: "img/Vegetables/broccoli.jpg", calories: 125},
+    {title: "Onion", imgsrc: "img/Vegetables/onion.jpg", calories: 125},   
+    {title: "Cabbage", imgsrc: "img/Vegetables/cabbage.jpg", calories: 125}, 
+    {title: "Carrot", imgsrc: "img/Vegetables/carrot.jpg", calories: 125},  
+    {title: "Courgette", imgsrc: "img/Vegetables/courgette.jpg", calories: 125},    
+    {title: "Greenbeans", imgsrc: "img/Vegetables/greenbeans.jpg", calories: 125},  
+    {title: "Parsnip", imgsrc: "img/Vegetables/parsnip.jpg", calories: 125}, 
+    {title: "Red Pepper", imgsrc: "img/Vegetables/redpepper.jpg", calories: 125},
+    {title: "Tomato", imgsrc: "img/Vegetables/tomato.jpg", calories: 125}
+        
+        
+        /*"Asparagus",
       "Broccoli",
       "Onion",
       "Cabbage",
@@ -31,39 +54,67 @@ angular.module('calCounter.controllers', [])
       "Greenbeans",
       "Parsnip",
       "Red pepper",
-       "Tomato",
+       "Tomato",*/
     ],
+        
     [
-      "Apple",
+        
+    {title: "Apple", imgsrc: "img/Fruits/apple.jpg", calories: 125},
+    {title: "Banana", imgsrc: "img/Fruits/banana.jpg", calories: 125},
+    {title: "Blueberries", imgsrc: "img/Fruits/blueberries1.jpg", calories: 125},
+    {title: "Kiwi", imgsrc: "img/Fruits/kiwi.jpg", calories: 125},
+    {title: "Orange", imgsrc: "img/Fruits/orange.jpg", calories: 125},
+    {title: "Peach", imgsrc: "img/Fruits/peach.jpg", calories: 125},
+    {title: "Pear", imgsrc: "img/Fruits/pear.jpg", calories: 125},
+    {title: "Pineapple", imgsrc: "img/Fruits/pineapple.jpg", calories: 125},
+    {title: "Strawberry", imgsrc: "img/Fruits/strawberry.jpg", calories: 125}     
+        
+        
+    /*  "Apple",
       "Banana",
       "Blueberries",
       "Kiwi",
       "Orange",
       "Peach",
       "Pear",
-      "Pinepple",
-      "Strawberry",
+      "Pineapple",
+      "Strawberry",*/
 
     ],
     [
-      "Chicken breast",
+        {title: "Chicken breast", imgsrc: "img/FishPoultry/chicken.jpg", calories: 125},
+        {title: "Duck breast", imgsrc: "img/FishPoultry/duck.jpg", calories: 125},
+        {title: "Lobster", imgsrc: "img/FishPoultry/lobster.jpg", calories: 125},
+        {title: "Prawn", imgsrc: "img/FishPoultry/prawn.jpg", calories: 125},
+        {title: "Salmon", imgsrc: "img/FishPoultry/salmon.jpg", calories: 125},
+        {title: "Swordfish", imgsrc: "img/FishPoultry/swordfish.jpg", calories: 125},
+        {title: "Tuna", imgsrc: "img/FishPoultry/tuna.jpg", calories: 125},
+        {title: "Turkey", imgsrc: "img/FishPoultry/turkey.jpg", calories: 125}
+     /* "Chicken breast",
       "Duck breast",
       "Lobster",
      "Prawn",
       "Salmon",
       "Swordfish",
       "Tuna",
-      "Turkey",
+      "Turkey",*/
          ],
     [
+        {title: "Fizzy drink", imgsrc: "img/Drinks/fizzydrink.jpg", calories: 125},
+        {title: "Champagne", imgsrc: "img/Drinks/champagne.jpg", calories: 125},
+        {title: "Cider", imgsrc: "img/Drinks/cider.jpg", calories: 125},
+        {title: "Stout", imgsrc: "img/Drinks/stout.jpg", calories: 125},
+        {title: "White wine", imgsrc: "img/Drinks/whitewine.jpg", calories: 125},
+        {title: "Red wine", imgsrc: "img/Drinks/redwine.jpg", calories: 125},
         
-      "Fizzy drink",
+        
+     /* "Fizzy drink",
       "Champagne",
       "Cider",
       "Beer",
       "Stout",
       "White wine",
-      "Red wine",
+      "Red wine",*/
      
     ]
  ];
