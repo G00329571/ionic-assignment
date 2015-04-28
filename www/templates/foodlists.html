@@ -1,23 +1,18 @@
-<!--<ion-view view-title="{{ category }}">
-  <ion-content>
-    
-     <ion-item ng-repeat="food in foodlists">
-        {{ food }}
-      </ion-item>
-      
-      
-  </ion-content>
-</ion-view>-->
 
- 
+
+ <!--creates a view which binds the data from "category" to html using an angular.js expression-->
 <ion-view view-title="{{ category }}">
   <ion-content>
     <ion-list>
+<!--creates a list card , ng-repeat directive loops through the array of foods in foodlists and creates a card for each food in the foodlist--> 
       <div class="list card" ng-repeat="food in foodlists">
+      <!-- item-avatar is used to create a card combining images and text-->    
         <div class="item item-avatar">
-           <img src ={{food.imgsrc}}>
-             
+            <!--finds the food in the foodlist array and attaches the food image to the card using the angular data binding expression-->
+           <img src ={{food.imgsrc}}>  
+          <!-- angular data binding expression which binds the title of the food to the card-->
           {{ food.title }}
+                <!-- angular data binding expression which binds the calories of the food to the card-->
           <h4>{{food.calories}}</h4>
         </div>
       </div>

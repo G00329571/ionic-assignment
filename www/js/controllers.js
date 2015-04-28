@@ -11,7 +11,7 @@ angular.module('calCounter.controllers', [])
     
     foodlists = [
     [
-    {title: "Back bacon", imgsrc: "img/Meat/backbacon.jpg", calories: 125},
+    {title: "Back bacon", imgsrc: "img/Fruit/backbacon.jpg", calories: 125},
     {title: "Beef fillet", imgsrc: "img/Meat/beeffillet.jpg", calories: 140},   
     {title: "Pork sausage", imgsrc: "img/Meat/porksausage.jpg", calories: 200},   
     {title: "Pork chop", imgsrc: "img/Meat/porkchop.jpg", calories: 190},  
