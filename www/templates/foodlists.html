@@ -13,8 +13,10 @@
 <ion-view view-title="{{ category }}">
   <ion-content>
     <ion-list>
-      <div class="card" ng-repeat="food in foodlists">
-        <div class="item item-text-wrap">
+      <div class="list card" ng-repeat="food in foodlists">
+        <div class="item item-avatar">
+           <img src ={{food.imgsrc}}>
+             
           {{ food.title }}
           <h4>{{food.calories}}</h4>
         </div>

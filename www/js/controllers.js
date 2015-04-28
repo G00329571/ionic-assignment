@@ -13,7 +13,7 @@ angular.module('calCounter.controllers', [])
     [
     {title: "Back bacon", imgsrc: "img/Meat/backbacon.jpg", calories: 125},
     {title: "Beef fillet", imgsrc: "img/Meat/beeffillet.jpg", calories: 140},   
-    {title: "Pork sausage", imgsrc: "img/Meat/pork-sausage.jpg", calories: 200},   
+    {title: "Pork sausage", imgsrc: "img/Meat/porksausage.jpg", calories: 200},   
     {title: "Pork chop", imgsrc: "img/Meat/porkchop.jpg", calories: 190},  
     {title: "Pork fillet", imgsrc: "img/Meat/porkfillet.jpg", calories: 246},   
     {title: "Roast beef", imgsrc: "img/Meat/roastbeef.jpg", calories: 294},   
@@ -82,14 +82,14 @@ angular.module('calCounter.controllers', [])
 
     ],
     [
-        {title: "Chicken breast", imgsrc: "img/FishPoultry/chicken.jpg", calories: 125},
-        {title: "Duck breast", imgsrc: "img/FishPoultry/duck.jpg", calories: 125},
-        {title: "Lobster", imgsrc: "img/FishPoultry/lobster.jpg", calories: 125},
-        {title: "Prawn", imgsrc: "img/FishPoultry/prawn.jpg", calories: 125},
-        {title: "Salmon", imgsrc: "img/FishPoultry/salmon.jpg", calories: 125},
-        {title: "Swordfish", imgsrc: "img/FishPoultry/swordfish.jpg", calories: 125},
-        {title: "Tuna", imgsrc: "img/FishPoultry/tuna.jpg", calories: 125},
-        {title: "Turkey", imgsrc: "img/FishPoultry/turkey.jpg", calories: 125}
+        {title: "Chicken breast", imgsrc: "img/Fish/chicken.jpg", calories: 125},
+        {title: "Duck breast", imgsrc: "img/Fish/duck.jpg", calories: 125},
+        {title: "Lobster", imgsrc: "img/Fish/lobster.jpg", calories: 125},
+        {title: "Prawn", imgsrc: "img/Fish/prawn.jpg", calories: 125},
+        {title: "Salmon", imgsrc: "img/Fish/salmon.jpg", calories: 125},
+        {title: "Swordfish", imgsrc: "img/Fish/swordfish.jpg", calories: 125},
+        {title: "Tuna", imgsrc: "img/Fish/tuna.jpg", calories: 125},
+        {title: "Turkey", imgsrc: "img/Fish/turkey.jpg", calories: 125}
      /* "Chicken breast",
       "Duck breast",
       "Lobster",
@@ -106,7 +106,7 @@ angular.module('calCounter.controllers', [])
         {title: "Stout", imgsrc: "img/Drinks/stout.jpg", calories: 125},
         {title: "White wine", imgsrc: "img/Drinks/whitewine.jpg", calories: 125},
         {title: "Red wine", imgsrc: "img/Drinks/redwine.jpg", calories: 125},
-        
+        {title: "Beer", imgsrc: "img/Drinks/beer.jpg", calories: 125}
         
      /* "Fizzy drink",
       "Champagne",
