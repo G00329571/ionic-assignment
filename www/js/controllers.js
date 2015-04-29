@@ -11,15 +11,15 @@ angular.module('calCounter.controllers', [])
     
     foodlists = [
     [
-    {title: "Back bacon", imgsrc: "img/Meat/backbacon.jpg", calories: 125},
-    {title: "Beef fillet", imgsrc: "img/Meat/beeffillet.jpg", calories: 140},   
-    {title: "Pork sausage", imgsrc: "img/Meat/porksausage.jpg", calories: 200},   
-    {title: "Pork chop", imgsrc: "img/Meat/porkchop.jpg", calories: 190},  
-    {title: "Pork fillet", imgsrc: "img/Meat/porkfillet.jpg", calories: 246},   
-    {title: "Roast beef", imgsrc: "img/Meat/roastbeef.jpg", calories: 294},   
-    {title: "Roast lamb", imgsrc: "img/Meat/roastleglamb.jpg", calories: 165},  
-    {title: "Sirlion steak", imgsrc: "img/Meat/sirlionsteak.jpg", calories: 289},   
-    {title: "Streaky bacon", imgsrc: "img/Meat/streakybacon.jpg", calories: 320}    
+    {title: "Back bacon", imgsrc: "img/Meats/backbacon.jpg", calories: 125},
+    {title: "Beef fillet", imgsrc: "img/Meats/beeffillet.jpg", calories: 140},   
+    {title: "Pork sausage", imgsrc: "img/Meats/porksausage.jpg", calories: 200},   
+    {title: "Pork chop", imgsrc: "img/Meats/porkchop.jpg", calories: 190},  
+    {title: "Pork fillet", imgsrc: "img/Meats/porkfillet.jpg", calories: 246},   
+    {title: "Roast beef", imgsrc: "img/Meats/roastbeef.jpg", calories: 294},   
+    {title: "Roast lamb", imgsrc: "img/Meats/roastleglamb.jpg", calories: 165},  
+    {title: "Sirlion steak", imgsrc: "img/Meats/sirlionsteak.jpg", calories: 289},   
+    {title: "Streaky bacon", imgsrc: "img/Meats/streakybacon.jpg", calories: 320}    
         
      /* "Back bacon",
       "Beef fillet",
