@@ -11,7 +11,7 @@ angular.module('calCounter.controllers', [])
     
     foodlists = [
     [
-    {title: "Back bacon", imgsrc: "img/Fruit/backbacon.jpg", calories: 125},
+    {title: "Back bacon", imgsrc: "img/Meat/backbacon.jpg", calories: 125},
     {title: "Beef fillet", imgsrc: "img/Meat/beeffillet.jpg", calories: 140},   
     {title: "Pork sausage", imgsrc: "img/Meat/porksausage.jpg", calories: 200},   
     {title: "Pork chop", imgsrc: "img/Meat/porkchop.jpg", calories: 190},  
@@ -100,13 +100,13 @@ angular.module('calCounter.controllers', [])
       "Turkey",*/
          ],
     [
-        {title: "Fizzy drink", imgsrc: "img/Drinks/fizzydrink.jpg", calories: 125},
-        {title: "Champagne", imgsrc: "img/Drinks/champagne.jpg", calories: 125},
-        {title: "Cider", imgsrc: "img/Drinks/cider.jpg", calories: 125},
-        {title: "Stout", imgsrc: "img/Drinks/stout.jpg", calories: 125},
-        {title: "White wine", imgsrc: "img/Drinks/whitewine.jpg", calories: 125},
-        {title: "Red wine", imgsrc: "img/Drinks/redwine.jpg", calories: 125},
-        {title: "Beer", imgsrc: "img/Drinks/beer.jpg", calories: 125}
+        {title: "Fizzy drink", imgsrc: "img/Drink/fizzydrink.jpg", calories: 125},
+        {title: "Champagne", imgsrc: "img/Drink/champagne.jpg", calories: 125},
+        {title: "Cider", imgsrc: "img/Drink/cider.jpg", calories: 125},
+        {title: "Stout", imgsrc: "img/Drink/stout.jpg", calories: 125},
+        {title: "White wine", imgsrc: "img/Drink/whitewine.jpg", calories: 125},
+        {title: "Red wine", imgsrc: "img/Drink/redwine.jpg", calories: 125},
+        {title: "Beer", imgsrc: "img/Drink/beer.jpg", calories: 125}
         
      /* "Fizzy drink",
       "Champagne",
