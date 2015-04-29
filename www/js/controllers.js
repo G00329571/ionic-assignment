@@ -82,14 +82,14 @@ angular.module('calCounter.controllers', [])
 
     ],
     [
-        {title: "Chicken breast", imgsrc: "img/Fish/chicken.jpg", calories: 125},
-        {title: "Duck breast", imgsrc: "img/Fish/duck.jpg", calories: 125},
-        {title: "Lobster", imgsrc: "img/Fish/lobster.jpg", calories: 125},
-        {title: "Prawn", imgsrc: "img/Fish/prawn.jpg", calories: 125},
-        {title: "Salmon", imgsrc: "img/Fish/salmon.jpg", calories: 125},
-        {title: "Swordfish", imgsrc: "img/Fish/swordfish.jpg", calories: 125},
-        {title: "Tuna", imgsrc: "img/Fish/tuna.jpg", calories: 125},
-        {title: "Turkey", imgsrc: "img/Fish/turkey.jpg", calories: 125}
+        {title: "Chicken breast", imgsrc: "img/Fishs/chicken.jpg", calories: 125},
+        {title: "Duck breast", imgsrc: "img/Fishs/duck.jpg", calories: 125},
+        {title: "Lobster", imgsrc: "img/Fishs/lobster.jpg", calories: 125},
+        {title: "Prawn", imgsrc: "img/Fishs/prawn.jpg", calories: 125},
+        {title: "Salmon", imgsrc: "img/Fishs/salmon.jpg", calories: 125},
+        {title: "Swordfish", imgsrc: "img/Fishs/swordfish.jpg", calories: 125},
+        {title: "Tuna", imgsrc: "img/Fishs/tuna.jpg", calories: 125},
+        {title: "Turkey", imgsrc: "img/Fishs/turkey.jpg", calories: 125}
      /* "Chicken breast",
       "Duck breast",
       "Lobster",
