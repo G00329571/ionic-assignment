@@ -59,15 +59,15 @@ angular.module('calCounter.controllers', [])
         
     [
         
-    {title: "Apple", imgsrc: "img/Fruits/apple.jpg", calories: 125},
-    {title: "Banana", imgsrc: "img/Fruits/banana.jpg", calories: 125},
-    {title: "Blueberries", imgsrc: "img/Fruits/blueberries1.jpg", calories: 125},
-    {title: "Kiwi", imgsrc: "img/Fruits/kiwi.jpg", calories: 125},
-    {title: "Orange", imgsrc: "img/Fruits/orange.jpg", calories: 125},
-    {title: "Peach", imgsrc: "img/Fruits/peach.jpg", calories: 125},
-    {title: "Pear", imgsrc: "img/Fruits/pear.jpg", calories: 125},
-    {title: "Pineapple", imgsrc: "img/Fruits/pineapple.jpg", calories: 125},
-    {title: "Strawberry", imgsrc: "img/Fruits/strawberry.jpg", calories: 125}     
+    {title: "Apple", imgsrc: "img/Fruits/apple.jpg", calories: 78},
+    {title: "Banana", imgsrc: "img/Fruits/banana.jpg", calories: 121},
+    {title: "Blueberries", imgsrc: "img/Fruits/blueberries1.jpg", calories: 25},
+    {title: "Kiwi", imgsrc: "img/Fruits/kiwi.jpg", calories: 76},
+    {title: "Orange", imgsrc: "img/Fruits/orange.jpg", calories: 89},
+    {title: "Peach", imgsrc: "img/Fruits/peach.jpg", calories: 109},
+    {title: "Pear", imgsrc: "img/Fruits/pear.jpg", calories: 132},
+    {title: "Pineapple", imgsrc: "img/Fruits/pineapple.jpg", calories: 105},
+    {title: "Strawberry", imgsrc: "img/Fruits/strawberry.jpg", calories: 102}     
         
         
     /*  "Apple",
@@ -82,14 +82,14 @@ angular.module('calCounter.controllers', [])
 
     ],
     [
-        {title: "Chicken breast", imgsrc: "img/Fishs/chicken.jpg", calories: 125},
-        {title: "Duck breast", imgsrc: "img/Fishs/duck.jpg", calories: 125},
-        {title: "Lobster", imgsrc: "img/Fishs/lobster.jpg", calories: 125},
-        {title: "Prawn", imgsrc: "img/Fishs/prawn.jpg", calories: 125},
-        {title: "Salmon", imgsrc: "img/Fishs/salmon.jpg", calories: 125},
-        {title: "Swordfish", imgsrc: "img/Fishs/swordfish.jpg", calories: 125},
-        {title: "Tuna", imgsrc: "img/Fishs/tuna.jpg", calories: 125},
-        {title: "Turkey", imgsrc: "img/Fishs/turkey.jpg", calories: 125}
+        {title: "Chicken breast", imgsrc: "img/Fishs/chicken.jpg", calories: 135},
+        {title: "Duck breast", imgsrc: "img/Fishs/duck.jpg", calories: 325},
+        {title: "Lobster", imgsrc: "img/Fishs/lobster.jpg", calories: 225},
+        {title: "Prawn", imgsrc: "img/Fishs/prawn.jpg", calories: 76},
+        {title: "Salmon", imgsrc: "img/Fishs/salmon.jpg", calories: 134},
+        {title: "Swordfish", imgsrc: "img/Fishs/swordfish.jpg", calories: 101},
+        {title: "Tuna", imgsrc: "img/Fishs/tuna.jpg", calories: 138},
+        {title: "Turkey", imgsrc: "img/Fishs/turkey.jpg", calories: 165}
      /* "Chicken breast",
       "Duck breast",
       "Lobster",
@@ -100,13 +100,13 @@ angular.module('calCounter.controllers', [])
       "Turkey",*/
          ],
     [
-        {title: "Fizzy drink", imgsrc: "img/Drink/fizzydrink.jpg", calories: 125},
-        {title: "Champagne", imgsrc: "img/Drink/champagne.jpg", calories: 125},
-        {title: "Cider", imgsrc: "img/Drink/cider.jpg", calories: 125},
-        {title: "Stout", imgsrc: "img/Drink/stout.jpg", calories: 125},
-        {title: "White wine", imgsrc: "img/Drink/whitewine.jpg", calories: 125},
-        {title: "Red wine", imgsrc: "img/Drink/redwine.jpg", calories: 125},
-        {title: "Beer", imgsrc: "img/Drink/beer.jpg", calories: 125}
+        {title: "Fizzy drink", imgsrc: "img/Drink/fizzydrink.jpg", calories: 625},
+        {title: "Champagne", imgsrc: "img/Drink/champagne.jpg", calories: 175},
+        {title: "Cider", imgsrc: "img/Drink/cider.jpg", calories: 525},
+        {title: "Stout", imgsrc: "img/Drink/stout.jpg", calories: 333},
+        {title: "White wine", imgsrc: "img/Drink/whitewine.jpg", calories: 420},
+        {title: "Red wine", imgsrc: "img/Drink/redwine.jpg", calories: 203},
+        {title: "Beer", imgsrc: "img/Drink/beer.jpg", calories: 179}
         
      /* "Fizzy drink",
       "Champagne",
