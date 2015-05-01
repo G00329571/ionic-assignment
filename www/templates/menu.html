@@ -1,24 +1,29 @@
 <ion-side-menus enable-menu-with-back-views="false">
   <ion-side-menu-content>
       
-    <ion-nav-bar class="bar-positive"> <!--changes nav bar to positive-->
+      
+      <!-- creates a navigation bar on the left hand side of the app, tapping on the bar will open a side menu on the left which will show the various food categories-->
+    <ion-nav-bar class="bar-positive"> 
      <ion-nav-back-button></ion-nav-back-button>
 
-      <ion-nav-buttons side="left">
+      <ion-nav-buttons side="left"> 
         <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
       </ion-nav-buttons>
+        
     </ion-nav-bar>
+      
+      <!-- nav-view used to render the states in the application , the header bar updates to show which category of food we are viewing-->
     <ion-nav-view name="menuContent"></ion-nav-view>
   </ion-side-menu-content>
 
   <ion-side-menu side="left"><!--places side menu on left hand side of the app -->
     <ion-header-bar class="bar bar-header bar-positive">
-      <h1 class="title">Food Categories</h1>
+      <h1 class="title">Food Categories</h1><!--Title of the side menu list  -->
     </ion-header-bar>
     <ion-content>
       <ion-list>
        
-            <ion-item ng-repeat="category in categories" nav-clear menu-close ng-href="#/app/foodlists/{{categories.indexOf(category)}}">
+            <ion-item ng-repeat="category in categories" nav-clear menu-close ng-href="#/app/foodlists/{{categories.indexOf(category)}}"> 
  {{ category }}
         </ion-item>
       </ion-list>

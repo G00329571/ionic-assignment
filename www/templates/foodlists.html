@@ -1,21 +1,52 @@
 
 
  <!--creates a view which binds the data from "category" to html using an angular.js expression-->
-<ion-view view-title="{{ category }}">
+<ion-view class="frame-look-feel" view-title="{{ category }}">
   <ion-content>
     <ion-list>
+         <!--defines the controller as FoodlistsCtrl the controller will be envoked by angular using  a $scope object -->
+        <div ng-controller="FoodlistsCtrl">
+    
 <!--creates a list card , ng-repeat directive loops through the array of foods in foodlists and creates a card for each food in the foodlist--> 
       <div class="list card" ng-repeat="food in foodlists">
+          
       <!-- item-avatar is used to create a card combining images and text-->    
         <div class="item item-avatar">
+            
             <!--finds the food in the foodlist array and attaches the food image to the card using the angular data binding expression-->
            <img src ={{food.imgsrc}}>  
+            
           <!-- angular data binding expression which binds the title of the food to the card-->
           {{ food.title }}
-                <!-- angular data binding expression which binds the calories of the food to the card-->
-          <h4>{{food.calories}}</h4>
+            <right>
+            <!-- Text displayed on app button to add  a food -->
+                <h3>Click to add food </h3>
+            </right>
+            
+            <!--ng-click directive waits for an event (click on the add food button) then takes the calories for the food click and adds them to total calories--> 
+            <button ng-click="function1({{food.calories}})" class="button button-positive" style="float:right;">
+                <!-- angular data binding expression which binds the calories data of the food to the card-->
+          {{food.calories}}
+                </button>
+            
+            <right>
+                <p>Total Calories:
+                <input type="text" ng-model="count" style="float: right;"/>
+                </p>
+            </right>
         </div>
       </div>
+            
+            
+            <div class ="center list card">
+                <!--ng-click directive waits for an event (click on the clear button) then resets the total calories to 0 --> 
+                
+                 <button ng-click="functionClear()" class="button button-positive" style="float:right;">
+                     Clear
+                </button>
+            
+            </div>   
+        </div>
     </ion-list>
   </ion-content>
 </ion-view>
